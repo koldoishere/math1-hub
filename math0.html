@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#5b3fa6">
 <meta name="color-scheme" content="light dark">
-<title>Mathematics 0 — Interactive Learning Hub</title>
+<title>Math 0 BS 100 INTERACTIVE BOOK</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%235b3fa6'/%3E%3Ctext x='32' y='45' font-size='38' font-family='Georgia,serif' font-weight='700' text-anchor='middle' fill='white'%3E%E2%88%91%3C/text%3E%3C/svg%3E">
 <style>
 /* =====================================================================
@@ -421,7 +421,7 @@ noscript .ns{padding:40px;text-align:center}
 <a class="skip" href="#main">Skip to content</a>
 <div class="app">
   <aside class="side" id="side" aria-label="Main navigation">
-    <div class="side-head"><div class="logo" aria-hidden="true">∑</div><div class="brand"><b>Mathematics 0</b><small>BS 100 · Innovation University</small></div></div>
+    <div class="side-head"><div class="logo" aria-hidden="true">∑</div><div class="brand"><b>Math 0 BS 100 INTERACTIVE BOOK</b><small>BS 100 · Innovation University</small></div></div>
     <nav class="side-nav" id="sideNav" aria-label="Sections"></nav>
     <div class="side-foot">Works offline · your progress is saved on this device</div>
   </aside>
@@ -2669,8 +2669,8 @@ function mount(html, { key, title, sub }) {
   cleanup.forEach(f => { try { f(); } catch (e) { /* ignore */ } }); cleanup = [];
   view.innerHTML = `<div class="view">${html}</div>`;
   refreshNav(key);
-  $('#crumb').innerHTML = `<small>${esc(sub || 'Mathematics 0 · BS 100')}</small>${esc(title)}`;
-  document.title = `${title} — Mathematics 0 · BS 100`;
+  $('#crumb').innerHTML = `<small>${esc(sub || 'Math 0 BS 100 INTERACTIVE BOOK')}</small>${esc(title)}`;
+  document.title = 'Math 0 BS 100 INTERACTIVE BOOK';
   openMenu(false);
 }
 function route() {
@@ -2713,7 +2713,8 @@ function viewHome() {
       <text x="72" y="30">y</text>
     </svg>
     <span class="eyebrow">Innovation University · FCIT</span>
-    <h1>Mathematics 0</h1>
+    <h1>Math 0 BS 100 INTERACTIVE BOOK</h1>
+    <p class="lead">dr Mohamed Elsaid</p>
     <p>An interactive companion to the BS 100 course handout. Read the original pages, skim searchable study notes, practise with quizzes and check worked answers — on any device, even offline.</p>
     <div class="row"><a class="btn primary" href="#/c/0/pages">${ico('book')} Start Chapter 1</a><a class="btn" href="#/quiz">${ico('quiz')} Take a quiz</a><a class="btn hide-sm" href="#/book">${ico('file')} Original PDF</a></div>
   </section>
